@@ -5,6 +5,7 @@ React-based data fetching code using [GMOD's](https://github.com/GMOD) libraries
 * bigWig
 * bam
 * bed.gz (by bgzip and tabix)
+* twobit (.2bit)
 
 ## How to use
 
