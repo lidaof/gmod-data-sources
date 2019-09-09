@@ -32,6 +32,7 @@
     "@gmod/bam": "^1.0.18",
     "@gmod/bbi": "^1.0.19",
     "@gmod/tabix": "^1.1.5",
+    "@gmod/twobit": "^1.1.9",
     "generic-filehandle": "^1.0.9"
   }
 }
