@@ -15,12 +15,12 @@ class App extends React.Component {
     // const tab =  new TabixSource('https://s3.amazonaws.com/repbr/TEST/ENCFF000ARO_ALL.iteres.loci.gz');
     // const tabData = await tab.getData('MER41B', 0, 1);
     // console.log(tabData);
-    // const bw =  new BigwigSource('https://wangftp.wustl.edu/~dli/test/TW463_20-5-bonemarrow_MeDIP.bigWig');
-    // const bwData = await bw.getData('chr7',27053398,27373766);
-    // console.log(bwData);
-    const two = new TwobitSource('https://vizhub.wustl.edu/public/hg38/hg38.2bit')
-    const seq = await two.getData('chr3',184299266,184299270)
-    console.log(seq);
+    const bw =  new BigwigSource('https://wangftp.wustl.edu/~dli/test/TW463_20-5-bonemarrow_MeDIP.bigWig');
+    const bwData = await bw.getData('chr7',26053398,27373766, {scale: 1/200000});
+    console.log(bwData);
+    // const two = new TwobitSource('https://vizhub.wustl.edu/public/hg38/hg38.2bit')
+    // const seq = await two.getData('chr3',184299266,184299270)
+    // console.log(seq);
   }
   
   render(){
